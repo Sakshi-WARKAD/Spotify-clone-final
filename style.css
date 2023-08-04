@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Delicious+Handrawn&display=swap');* {
+    margin: 0px;
+    padding: 0px;
+
+    color: white;
+    font-family: DM sans;
+}
+
+.spotify-logo {
+    padding: 10px;
+    width: 202.5760955810547px;
+    height: 60.525787353515625px;
+    top: 39.2918701171875px;
+    left: 35.8214111328125px;
+    padding:15px;
+}
+body,html{
+    height: 100%;
+    margin:0rem;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    font-family: DM Sans;
+    background-color: black;
+    color:white;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex:1;
+    overflow: hidden;
+    background-color: black;
+    padding: 0.5rem;
+}
+.sidebar{
+    flex:0.25;
+    background-color:black;
+
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+}
+.main-content{
+    flex:0.8;
+    background-color:rgba(24, 24, 24, 1);
+    ;
+    overflow-y:auto;
+    border-radius:0.5rem;
+}
+.player{
+    position:fixed;
+    height:80px;
+    width:100%;
+    bottom:0;
+    left:0;
+    background-color:black;
+}
+.topicons{
+    font-family: DM Sans;
+    font-size:22px;
+    padding:15px;
+    gap:20px;
+}
+.logo{
+    margin:10px;
+    display: flex;
+}
+.topicons a{
+    margin-left:10px;
+}
+.middle-icons{
+    font-family: DM Sans;
+    font-size: 22px;
+    padding:15px;
+}
+.middle-logo{
+    margin:10px;
+}
+.middle-logo a{
+    margin-left:10px;
+}
+.logo>img, .middle-logo>img, .install-app>img{
+    width:22px;
+}
+.view-button{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.fav-section{
+    font-family: DM Sans;
+    font-size: 22px;
+    padding:15px; 
+    /* margin-left: 5px; */
+}
+.fav-album{
+   margin:5px;
+   gap: 30px;
+}
+/* .fav-list{
+    padding: 5px;
+} */
+.install-app{
+    margin:10px;
+    font-size:22px;
+}
+.install-app a{
+    margin-left:15px;
+   
+}
+/* Right sided container */
+.music-section{
+    display: flex;
+    flex-direction: column;
+}
+.player>img{
+    background-color: white;
+}
+.player{
+    display: flex;
+}
+.nav-bar{
+    position:sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    z-index: 1000;
+}
+.side-arrow{
+    align-items: center;
+    /* margin-top:4px; */
+    padding:10px;
+}
+
+.profile-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.main-container{
+   margin-left:30px;
+}
+.main-container h2{
+    margin-left:20px;
+ }
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+    margin-top:10px;
+    width:250px;
+    margin: 10px;
+}
+.card>p{
+    align-self: center;
+    margin-left: 10px;
+}
+.card>img{
+     width:70px;
+}
+.card-container{
+    display: flex;
+}
+.shows-info-card{
+    display: flex;
+    gap:2rem;
+    margin-left: 20px;
+    flex-wrap: wrap;
+}
+.shows-card{
+    width:200px;
+    background-color: grey;
+    padding: 0.75em;
+    border-radius: 0.5rem;
+    height:fit-content;
+    margin:1rem  0.75rem;
+}
+.card-img{
+    width:100%;
+    border-radius: 0.35rem;
+}
+.card-name{
+    margin: 0.25rem 0;
+}
+.card-description{
+    margin:0;
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+.heading-of-shows{
+    margin:20px;
+    margin-left: 30px;
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+}
+.volume-info{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:10px;
+}
+.volume-img>img{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.sound-system{
+    width:30px;
+    margin:10px;
+}
+.volume-range{
+    width:350px;
+    justify-content: center;
+    align-items:center;
+}
